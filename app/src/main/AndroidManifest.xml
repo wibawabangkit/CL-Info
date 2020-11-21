@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.testkkp">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".UpdateInfo2"></activity>
+        <activity android:name=".MyHome" />
+        <activity android:name=".KomentariInfo" />
+        <activity android:name=".DetailClusterInfo" />
+        <activity android:name=".UpdateInfo" />
+        <activity android:name=".ConfirmPembayaran" />
+        <activity android:name=".MyProfilActivity" />
+        <activity android:name=".PenggunaActivity" />
+        <activity android:name=".admin.DashboardAdmin" />
+        <activity android:name=".MyDetailIuranActivity" />
+        <activity android:name=".SuksesBayarActivity" />
+        <activity android:name=".BayarIuranActivity" />
+        <activity android:name=".IuranActivity" />
+        <activity android:name=".SuccessRegister" />
+        <activity android:name=".RegisterTwo" />
+        <activity android:name=".RegisterOne" />
+        <activity android:name=".LogInActivity" />
+        <activity android:name=".GetStarted" />
+        <activity android:name=".SplashScreen">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".DashboardActivity" />
+        <activity android:name=".MainActivity" />
+    </application>
+
+</manifest>
